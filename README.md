@@ -13,6 +13,8 @@ I work on web applications, backend services, and tools for business research an
 - **hiAnzy AI** — A platform for structured research, retrieval, and AI-assisted workflows. *Private repository; in development.*
 - **hiAnzy 3D World** — An interactive browser-based 3D environment being developed alongside the other tools. *In development.*
 
+- **[SOC Detection Lab](labs/soc-detection-lab/README.md)** — Offline authentication-log analysis with three detection rules, synthetic samples and documented tests. *Educational lab.*
+
 ## Technologies
 
 Python · TypeScript · JavaScript · React · Next.js · FastAPI · Three.js · Git · Linux
