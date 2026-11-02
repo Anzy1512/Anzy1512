@@ -1,0 +1,13 @@
+{"timestamp":"2026-10-01T09:00:00Z","host":"vpn-gw-01","user":"alice","src_ip":"203.0.113.10","event_type":"authentication","outcome":"failure"}
+{"timestamp":"2026-10-01T09:00:45Z","host":"vpn-gw-01","user":"alice","src_ip":"203.0.113.10","event_type":"authentication","outcome":"failure"}
+{"timestamp":"2026-10-01T09:01:30Z","host":"vpn-gw-01","user":"alice","src_ip":"203.0.113.10","event_type":"authentication","outcome":"failure"}
+{"timestamp":"2026-10-01T09:02:15Z","host":"vpn-gw-01","user":"alice","src_ip":"203.0.113.10","event_type":"authentication","outcome":"failure"}
+{"timestamp":"2026-10-01T09:03:00Z","host":"vpn-gw-01","user":"alice","src_ip":"203.0.113.10","event_type":"authentication","outcome":"failure"}
+{"timestamp":"2026-10-01T09:03:40Z","host":"vpn-gw-01","user":"alice","src_ip":"203.0.113.10","event_type":"authentication","outcome":"success"}
+{"timestamp":"2026-10-01T09:20:00Z","host":"idp-01","user":"bob","src_ip":"198.51.100.20","event_type":"authentication","outcome":"failure"}
+{"timestamp":"2026-10-01T09:20:30Z","host":"idp-01","user":"charlie","src_ip":"198.51.100.20","event_type":"authentication","outcome":"failure"}
+{"timestamp":"2026-10-01T09:21:00Z","host":"idp-01","user":"dana","src_ip":"198.51.100.20","event_type":"authentication","outcome":"failure"}
+{"timestamp":"2026-10-01T09:21:30Z","host":"idp-01","user":"bob","src_ip":"198.51.100.20","event_type":"authentication","outcome":"failure"}
+{"timestamp":"2026-10-01T09:22:00Z","host":"idp-01","user":"erin","src_ip":"198.51.100.20","event_type":"authentication","outcome":"failure"}
+{"timestamp":"2026-10-01T09:30:00Z","host":"app-01","user":"frank","src_ip":"192.0.2.50","event_type":"authentication","outcome":"failure"}
+{"timestamp":"2026-10-01T09:34:00Z","host":"app-01","user":"frank","src_ip":"192.0.2.50","event_type":"authentication","outcome":"success"}
