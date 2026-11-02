@@ -43,6 +43,8 @@ One JSON object per line with six required string fields:
 
 **Limitations:** The lab does not correlate distinct source IPs, distinguish shared NAT traffic, recognize successful MFA, identify bots or attackers, or establish compromise. Windows Event ID 4625, Linux SSH logs and IdP events must be normalized into the specified JSONL schema externally. Small samples can cause false positives; a large batch may consume significant memory. There is no enrichment, alert persistence, production access control, or data-retention policy.
 
+**Review the results:** [Sample JSON findings](sample_output.json) · [Analyst case study](docs/analyst-case-study.md)
+
 ## Investigation exercise
 
 Read [the triage runbook](docs/triage-runbook.md). Investigate the source address, user, host and timing; compare related authentication events; check MFA and device context where available; record what is observed versus hypothesized before recommending account protection or IP-blocking decisions.
