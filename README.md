@@ -1,57 +1,24 @@
-<!-- ANISH-PROFILE-V1 -->
+<!-- ANISH-PROFILE-V2 -->
 
 # Anish Sharma
 
-**Technology Consultant | Cybersecurity & Cloud Security | AI Systems & Product Engineering**
+**Technology consultant working across software, applied AI, and security.**
 
-Building secure, intelligent digital systems that connect engineering, business intelligence and human experience.
+I work on web applications, backend services, and tools for business research and operations. At [hiAnzy](https://hianzy.com), my work combines technical implementation with product planning. I am also developing my skills in cloud infrastructure and cybersecurity.
 
-Based in Delhi, India.
+## Selected work
 
-## What I Work On
+- **[hiAnzy website](https://github.com/Anzy1512/hi-anzy-website-2.0)** — A web platform built with React, Three.js, and FastAPI. [Website](https://hianzy.com) · Public repository.
+- **Commercial Intelligence OS (CIOS)** — Business research tooling focused on public-source evidence, verification, and traceable findings. *Private repository; in development.*
+- **hiAnzy AI** — A platform for structured research, retrieval, and AI-assisted workflows. *Private repository; in development.*
+- **hiAnzy 3D World** — An interactive browser-based 3D environment being developed alongside the other tools. *In development.*
 
-- Cybersecurity, security architecture and Linux
-- AWS cloud architecture and security
-- AI engineering, retrieval and intelligent workflows
-- Full-stack development and API engineering
-- Automation, technical strategy and product architecture
+## Technologies
 
-## Selected Projects
+Python · TypeScript · JavaScript · React · Next.js · FastAPI · Three.js · Git · Linux
 
-### hiAnzy
-Business systems, technology consulting and digital product development.
+**Current learning focus:** AWS architecture, cloud security, security monitoring, and detection fundamentals.
 
-[Website](https://hianzy.com) | [Public Repository](https://github.com/Anzy1512/hi-anzy-website-2.0)
+## Contact
 
-### Commercial Intelligence OS
-Private development project exploring evidence-backed business intelligence, source verification and OSINT research.
-
-### hiAnzy AI
-Private intelligence-to-execution platform under active development.
-
-### hiAnzy 3D World
-Developing immersive browser-based experiences with interactive 3D environments and connected business tools.
-
-## Technical Stack
-
-**Languages:** Python, TypeScript, JavaScript
-
-**Frontend:** React, Next.js, Three.js
-
-**Backend:** FastAPI, REST APIs, MongoDB
-
-**Engineering:** Git, GitHub Actions, Docker, Linux, automated testing
-
-**Learning:** CompTIA Security+, AWS Solutions Architect Associate and AWS Security.
-
-## Engineering Philosophy
-
-Evidence over assumptions. Security by design. Maintainable systems. Real-world impact.
-
-## Connect
-
-Website: https://hianzy.com
-
-Email: anish@hianzy.com
-
-Open to cybersecurity, cloud, AI engineering and consulting opportunities.
+[hiAnzy](https://hianzy.com) · [anish@hianzy.com](mailto:anish@hianzy.com)
