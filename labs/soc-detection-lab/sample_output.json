@@ -1,0 +1,63 @@
+{
+  "input_events": 13,
+  "alert_count": 3,
+  "alerts": [
+    {
+      "rule": "repeated_login_failures",
+      "severity": "medium",
+      "attack_technique": "T1110.001",
+      "summary": "Repeated failures for alice from 203.0.113.10",
+      "first_seen": "2026-10-01T09:00:00+00:00",
+      "last_seen": "2026-10-01T09:03:00+00:00",
+      "event_count": 5,
+      "users": [
+        "alice"
+      ],
+      "source_ips": [
+        "203.0.113.10"
+      ],
+      "hosts": [
+        "vpn-gw-01"
+      ]
+    },
+    {
+      "rule": "success_after_failures",
+      "severity": "high",
+      "attack_technique": "T1110.001",
+      "summary": "Successful authentication after failures for alice from 203.0.113.10",
+      "first_seen": "2026-10-01T09:00:00+00:00",
+      "last_seen": "2026-10-01T09:03:40+00:00",
+      "event_count": 6,
+      "users": [
+        "alice"
+      ],
+      "source_ips": [
+        "203.0.113.10"
+      ],
+      "hosts": [
+        "vpn-gw-01"
+      ]
+    },
+    {
+      "rule": "possible_password_spray",
+      "severity": "medium",
+      "attack_technique": "T1110.003",
+      "summary": "Failures across multiple accounts from 198.51.100.20",
+      "first_seen": "2026-10-01T09:20:00+00:00",
+      "last_seen": "2026-10-01T09:22:00+00:00",
+      "event_count": 5,
+      "users": [
+        "bob",
+        "charlie",
+        "dana",
+        "erin"
+      ],
+      "source_ips": [
+        "198.51.100.20"
+      ],
+      "hosts": [
+        "idp-01"
+      ]
+    }
+  ]
+}
