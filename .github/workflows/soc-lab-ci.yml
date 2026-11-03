@@ -1,0 +1,34 @@
+name: SOC Detection Lab CI
+
+on:
+  push:
+    paths:
+      - "labs/soc-detection-lab/**"
+      - ".github/workflows/soc-lab-ci.yml"
+  pull_request:
+    paths:
+      - "labs/soc-detection-lab/**"
+      - ".github/workflows/soc-lab-ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Python 3.11 offline tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: labs/soc-detection-lab
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Verify synthetic fixture output
+        run: |
+          python main.py --input data/auth_events.jsonl --output /tmp/findings.json
+          python -c "import json; d=json.load(open('/tmp/findings.json')); assert d['input_events']==13 and d['alert_count']==3; print('Demo fixture verified')"
