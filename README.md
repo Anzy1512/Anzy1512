@@ -8,7 +8,7 @@ I work on web applications, backend services, and tools for business research an
 
 ## Selected work
 
-- **[SOC Detection Lab](labs/soc-detection-lab/README.md)** — Offline authentication detection using synthetic events, tested Python rules and an [analyst case study](labs/soc-detection-lab/docs/analyst-case-study.md). [CI tests](https://github.com/Anzy1512/Anzy1512/actions/workflows/soc-lab-ci.yml). *Educational lab.*
+- **[SOC Detection Lab](https://github.com/Anzy1512/soc-detection-lab)** — Offline authentication detection using synthetic events, tested Python rules and an [analyst case study](https://github.com/Anzy1512/soc-detection-lab/blob/main/docs/analyst-case-study.md). [CI tests](https://github.com/Anzy1512/soc-detection-lab/actions/workflows/python-tests.yml). *Educational lab.*
 
 - **[hiAnzy website](https://github.com/Anzy1512/hi-anzy-website-2.0)** — A web platform built with React, Three.js, and FastAPI. [Website](https://hianzy.com) · Public repository.
 - **Commercial Intelligence OS (CIOS)** — Business research tooling focused on public-source evidence, verification, and traceable findings. *Private repository; in development.*
